@@ -1,0 +1,9 @@
+p {
+	color: midnightblue;
+	text-align: center;
+	background-color: magenta;
+	font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px #1c87c9;
+}
