@@ -3,14 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Learning How To Ride Dirtbikes</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
@@ -20,79 +21,75 @@
 		
 		<!--HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span><em>Riding dirtbikes is a phenomenal hobby!</em></span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Riding dirtbikes is phenomenal</span>
 				</div>
 			</div>
 		</div>
 		<!--END HOME-->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
-					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<!--PHOTO-CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb_1.png" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Riding dirtbikes is extremely exhilarating.</p>
 							</div>
 						</div>
 					</div>
-					<!--END PHOTO-CONTAINER 1 -->
-					
-					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<!--END PHOTO-CONTAINER 1-->
+
+					<!--PHOTO-CONTAINER 2-->
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb_2.png" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Riding dirtbikes will teach you better balance in everyday life.</p>
 							</div>
 						</div>
 					</div>
-					<!--END PHOTO-CONTAINER 2 -->
-					
-					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<!--END PHOTO-CONTAINER 2-->
+
+					<!--PHOTO-CONTAINER 3-->
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb_3.png" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Riding dirtbikes produces adrenaline like no other!</p>
 							</div>
 						</div>
 					</div>
-					<!--END PHOTO-CONTAINER 3 -->
-					
-					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<!--END PHOTO-CONTAINER 3-->
+
+					<!--PHOTO-CONTAINER 4-->
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb_4.png" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Riding dirtbikes teaches discipline.</p>
 							</div>
 						</div>
 					</div>
-					<!--END PHOTO-CONTAINER 4 -->
-					
-					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
+					<!--END PHOTO-CONTAINER 4-->
+
+					<!--PHOTO-CONTAINER 5-->
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb_5.png" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Riding dirtbikes is a good workout!</p>
 							</div>
 						</div>
 					</div>
-					<!--END PHOTO-CONTAINER 5 -->
+					<!--END PHOTO-CONTAINER 5-->
+
 					
 				</div>
 			</div>
@@ -103,7 +100,7 @@
 			<div>
 				<h3><em>POV of professional dirtbike racing.</em></h3>
 				<div>
-					<iframe width="420" height="315"
+					<iframe width="750" height="500"
 					src="https://www.youtube.com/embed/oiBtpWh80dU?autoplay=1&mute=1">
 					</iframe>
 				</div>
@@ -114,7 +111,7 @@
 			<div>
 				<h3><em>Hill Climbing with dirtbikes..</em></h3>
 				<div>
-					<iframe width="420" height="315"
+					<iframe width="750" height="500"
 					src="https://www.youtube.com/embed/cZWv0r6U1jU?autoplay=1&mute=1">
 					</iframe>
 				</div>
@@ -122,18 +119,18 @@
 		</section>
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Do you ride dirtbikes?</h1>
-					<div>
-						<h2><span>Everyone should experience riding at least once.</span>
-							<br />If you are wanting to be trained on riding dirtbikes, book an appointment today!
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2><span>Do you ride dirtbikes?</span>
+							<br />Let us teach you how to ride like a pro!
 						</h2>
-						<p>
-							Please provide us with your basic contact information.
+						<p class="rsvp-text">
+							Please provide us with some contact information.
 						</p>
-						<div>
+						<div class="form-rsvp"
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -142,7 +139,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -154,7 +151,7 @@
 		<!--END RSVP -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.learninghowtoride.com &nbsp;|&nbsp; &copy; 2022
 		</div>
 		<!--END FOOTER -->
