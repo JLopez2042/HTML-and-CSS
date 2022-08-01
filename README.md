@@ -7,10 +7,11 @@ This is a display of sample websites that I made using HTML and CSS.
 ## Projects
 
 <ol>
-<li> Luxury Cabin Retreat project</li>
-  <li> Movie Cinema Project</li>
-  <ol>
-    <li>This page is an example home page for a company hosting luxury cabin retreats. It is styled using CSS and contains a navbar, image containers, and a form.</li>
-    <li> This page is an example homepage for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns. </li>
-  </ol>
-</li>
+ <li> Luxury Cabin Retreat project</li>
+  <li>This page is an example home page for a company hosting luxury cabin retreats. It is styled using CSS and contains a navbar, image containers, and a form.</li>
+</ol>
+<ol>
+ <li> Movie Cinema Project</li>
+  <li> This page is an example homepage for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns. </li>
+ </li>
+ </ol>
