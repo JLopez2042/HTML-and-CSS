@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Learning How To Ride Dirtbikes</title>
 		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./JS/One_Page_Website.js"></script>
 	</head>
 	<body>
 	
@@ -95,6 +96,77 @@
 			</div>
 		</section>
 		<!-- END GALLERY -->
+
+		<!--Start of the overall creation of the Lightbox-->
+		<!-- Images used to open the lightbox -->
+		<div class="row">
+			<div class="column_1">
+			<img src="./Images/Thumb/th.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			</div>
+			<div class="column_1">
+			<img src="./Images/Thumb/th_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+			<div class="column_1">
+			<img src="./Images/Thumb/th_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			</div>
+			<div class="column_1">
+			<img src="./Images/Thumb/th_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			</div>
+		</div>
+		
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		
+			<div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+				<img src="./Images/Thumb/th.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="./Images/Thumb/th_1.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="./Images/Thumb/th_2.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">4 / 4</div>
+				<img src="./Images/Thumb/th_3.jpg" style="width:100%">
+			</div>
+		
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+			<!-- Caption text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+		
+			<!-- Thumbnail image controls -->
+			<div class="column">
+				<img class="demo" src="./Images/Thumb/th(1).png" onclick="currentSlide(1)" alt="Riding">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="./Images/Thumb/th_1(1).png" onclick="currentSlide(2)" alt="Riding">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="./Images/Thumb/th_2(1).png" onclick="currentSlide(3)" alt="Riding">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="./Images/Thumb/th_3(1).png" onclick="currentSlide(4)" alt="Riding">
+			</div>
+			</div>
+		</div>
+		<!--End of the Lightbox-->
 		
 		<section>
 			<div>
